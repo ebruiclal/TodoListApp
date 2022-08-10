@@ -23,4 +23,11 @@ public class TodoListAppController {
     public Iterable<User> users(){
         return userRepository.findAll();
     }
+    @PostMapping
+    public User AddUser(@RequestBody AddUser user){
+        User user = new user(){
+            return null;
+        }
+
+    }
 }
